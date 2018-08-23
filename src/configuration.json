@@ -1,0 +1,49 @@
+{
+    "images": [
+        {
+            "tag": "reactconsulting/windowsservercore-openjdk:10",
+            "file": "windowsservercore\\openjdk\\10\\Dockerfile",
+            "url": "windowsservercore\\openjdk\\10"
+        },
+        {
+            "tag":"reactconsulting/windowsservercore-openjdk:8",
+            "file": "windowsservercore\\openjdk\\8\\Dockerfile",
+            "url": "windowsservercore\\openjdk\\8"
+        },
+        {
+            "tag":"reactconsulting/windowsservercore:latest",
+            "file": "windowsservercore\\latest\\Dockerfile",
+            "url": "windowsservercore\\latest"
+        },
+        {
+            "tag":"reactconsulting/windowsservercore:ltsc2016",
+            "file": "windowsservercore\\ltsc2016\\Dockerfile",
+            "url": "windowsservercore\\ltsc2016"
+        },
+        {
+            "tag":"reactconsulting/windowsservercore-ltsc2016-git",
+            "file": "windowsservercore\\ltsc2016\\git\\Dockerfile",
+            "url": "windowsservercore\\ltsc2016\\git",
+            "deps": [
+                "reactconsulting/windowsservercore:ltsc2016"
+            ]
+        },
+        {
+            "tag": "reactconsulting/windowsservercore-ltsc2016-nodejs:v8.x",
+            "file": "windowsservercore\\ltsc2016\\nodejs\\v8.x\\Dockerfile",
+            "url": "windowsservercore\\ltsc2016\\nodejs\\v8.x",
+            "deps":[
+                "reactconsulting/windowsservercore:ltsc2016"
+            ]
+        },
+        {
+            "tag": "reactconsulting/windowsservercore-ltsc2016-msbuild:14.x",
+            "file": "windowsservercore\\ltsc2016\\msbuild\\14.x\\Dockerfile",
+            "url": "windowsservercore\\ltsc2016\\msbuild\\14.x",
+            "deps":[
+                "reactconsulting/windowsservercore:ltsc2016",
+                "reactconsulting/windowsservercore-ltsc2016-nuget"
+            ]
+        }
+    ]
+}
