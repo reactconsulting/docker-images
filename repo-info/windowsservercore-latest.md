@@ -9,7 +9,8 @@ $ docker pull reactconsulting/windowsservercore@sha256:1cbbc80583cdd5eaff8d9804c
 - OsVersion: `10.0.14393.2363`
 - Image ID: `sha256:290998b01c6a27c389f3cc073ea00750dbd1a152159515edd358fbfed7a8c7d4`
 - Default Command: `[ "c:\\windows\\system32\\cmd.exe" ]`
-- Enviroment variables:  
+- Enviroment variables:
+
     |Key|Value|
     |---|---|
     | | |
