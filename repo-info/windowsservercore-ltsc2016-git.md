@@ -9,7 +9,7 @@ $ docker pull reactconsulting/windowsservercore-ltsc2016-git@sha256:c14c50672085
 - OsVersion: `10.0.14393.2430`
 - Image ID: `sha256:0f01dcbe5760c200be5fccf6006c873c257a9c05e266130e68346f917644e0eb`
 - Default Command: `[ "c:\\windows\\system32\\cmd.exe" ]`
-- Enviroment variables:
+- Enviroment variables:  
     |Key|Value|
     |---|---|
     |GIT_HOME|C:\\MinGit|
