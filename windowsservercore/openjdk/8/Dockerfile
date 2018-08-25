@@ -18,4 +18,4 @@
 FROM openjdk:8-windowsservercore-ltsc2016
 
 # Set image labes
-LABEL mantainer="Nicola Biancolini <nicola.biancolini@reactconsulting.it>"
+LABEL maintainer="Nicola Biancolini <nicola.biancolini@reactconsulting.it>"
