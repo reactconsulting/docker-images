@@ -18,7 +18,7 @@
 FROM reactconsulting/windowsservercore:ltsc2016
 
 # Set image labes
-LABEL mantainer="Nicola Biancolini <nicola.biancolini@reactconsulting.it>"
+LABEL maintainer="Nicola Biancolini <nicola.biancolini@reactconsulting.it>"
 
 # Set default shell for run command
 SHELL ["powershell", "-NoProfile", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue'; "]
